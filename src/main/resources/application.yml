@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    #默认使用开发环境
+    active: dev
+#应用配置
+resources:
+  # log文件写入地址
+  logdir: logs/
+  # 应用名称
+  appname: spring-boot-exple
+  # 日志打印的基础扫描包
+  basepackage: com.wonders.jkda
+
